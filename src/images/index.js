@@ -1,0 +1,23 @@
+export { default as Logo } from './logo.png';
+export { default as AppStore } from './appStore.png';
+export { default as GooglePlayStore } from './googlePlayStore.png';
+export { default as AppGStore } from './app store.png';
+export { default as Contact } from './contactUs.jpg';
+export { default as intro_logo } from './intro_logo.png';
+export { default as BlueBackgroundWithLines } from './background.svg';
+export { default as ArrowBackOutlinedCircular } from './ArrowBackOutlinedCircular.png';
+export { default as CalendarIcon } from './CalendarIcon.png';
+export { default as Visibilityoff } from './Visibilityoff.png';
+export { default as Visibilityon } from './Visibilityon.png';
+export { default as AddContained } from './AddContained.png';
+export { default as MinusContained } from './MinusContained.png';
+export { default as SearchIcon } from './search.png';
+export { default as messi } from './messi.png';
+export { default as NotFoundAvatar } from './NotFoundAvatar.png';
+export { default as arrow_forward } from './arrowForward.svg';
+export { default as arrow_back } from './arrowBackward.svg';
+
+export {default as congrats} from './congrats.png';
+export { default as congrats_cover } from './congrats_cover.png';
+export { default as pause } from './pause.png';
+export { default as clock } from './clock.png';

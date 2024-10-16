@@ -1,0 +1,98 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+section {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  gap: 2rem;
+  padding: 0.5rem 0.2rem;
+  overflow: hidden;
+  width: 88%;
+  margin: auto;
+  /* background-color: #5280ad; */
+}
+
+.grid-item {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* padding: 0.5rem; */
+}
+
+/* footer {
+  background-color: #5280ad;
+  text-align: center;
+  padding: 2rem;
+} */
+
+/* When screen height is less than 355px, enable vertical scrolling */
+@media screen and (max-height: 400px) {
+  /* body {
+    overflow-y: auto;
+  } */
+
+  section {
+    padding: 1rem 0.5rem;
+    overflow-y: auto;
+    min-height: 200px;
+  }
+
+  .grid-item {
+    padding: 0.5rem; /* Reduce padding in grid items to fit content */
+  }
+}
+
+/* Items styles */
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.item-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* .item-container img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+} */
+
+.item-container span {
+  /* font-size: calc(1vw + 1vh); */
+  background-color: #34495e;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex: 1;
+  /* height: 100%; */
+}
+
+.item-container > div:first-of-type span {
+  border-top-left-radius: 290px;
+  border-bottom-left-radius: 290px;
+}
+
+.item-container > div:last-of-type span {
+  border-top-right-radius: 290px;
+  border-bottom-right-radius: 290px;
+}
